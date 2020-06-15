@@ -1,6 +1,7 @@
-run_code_inside = false 
-puts "Code before if...end"
-  if run_code_inside
-  puts "code inside"
+current_time = 2020-06-15 21:46:21 +0000
+
+if current_time.even?
+  puts "Even!""
+else
+  "odd"
 end
-puts "Code after if...end"
